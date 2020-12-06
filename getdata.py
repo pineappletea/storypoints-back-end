@@ -2,8 +2,7 @@
 def testdata():
 
     data = ({
-        "StoryTitle": "Example story 1",
-        "WeekOfCreation": "12/2020",
+        "StoryTitle": "Example story 1","WeekOfCreation": "12/2020",
         "Coordinates": {
             "lat": 60.201534768722134,
             "long": 24.934345339859608

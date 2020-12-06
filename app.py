@@ -27,7 +27,13 @@ def getStoryByID(storyID):
 
 @app.route('/around/<lat>/<long>/', methods=['GET'])
 def getStoriesAroundPoint(lat, long):
-    return jsonify(get_stories_in_range(lat, long, testdata))
+    #return jsonify(json.dumps(get_stories_in_range(lat, long, testdata)))
+    response = app.response_class(
+        response=json.dumps(get_stories_in_range(lat, long, testdata)),
+        status=200,
+        mimetype='application/json'
+    )
+    return response
 
 @app.route('/stories/post/<token>', methods=['POST'])
 def createStoryPost(token):

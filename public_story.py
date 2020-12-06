@@ -6,5 +6,5 @@ import json
 # Exampledata only has attributes that can be shared without authorization
 
 def public_story(story):
-    public_json = json.dumps(story)
+    public_json = story
     return public_json
