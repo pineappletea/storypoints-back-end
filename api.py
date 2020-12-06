@@ -47,3 +47,6 @@ def createStoryPost(token):
 def deny():
     return "Access denied"
 app.run()
+
+if __name__ == '__main__':
+    app.run(threaded=True, port=5000)
