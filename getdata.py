@@ -10,6 +10,7 @@ def testdata():
         "LocationDescription": "Stand in the middle of the lobby",
         "ThemeTags": ["studying", "work"],
         "UpVotes": "10",
+        "StoryText": "Before the plague, we used to gather in places like this."
     }, {
         "StoryTitle": "Example story 2",
         "WeekOfCreation": "12/2020",
@@ -19,7 +20,8 @@ def testdata():
         },
         "LocationDescription": "In the hallway",
         "ThemeTags": ["studying", "work"],
-        "UpVotes": "10"
+        "UpVotes": "10",
+        "StoryText": "The floor is slippery when wet."
     }, {
         "StoryTitle": "Example story 3",
         "WeekOfCreation": "12/2020",
@@ -29,7 +31,8 @@ def testdata():
         },
         "LocationDescription": "Benches on platform 3",
         "ThemeTags": [],
-        "UpVotes": "10"
+        "UpVotes": "10",
+        "StoryText": "Escaping the blockade carries a penalty."
     }, {
         "StoryTitle": "Example story in Espoo",
         "WeekOfCreation": "12/2020",
@@ -39,7 +42,8 @@ def testdata():
         },
         "LocationDescription": "On a rock",
         "ThemeTags": [],
-        "UpVotes": "10"
+        "UpVotes": "10",
+        "StoryText": "This story isn't mean to come up in the search."
     }
     )
 
